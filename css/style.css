@@ -1,0 +1,37 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: "Roboto";
+}
+.content {
+  width: 100%;
+}
+.content .timer {
+  text-align: center;
+}
+.content .timer-title {
+  font-size: 36px;
+  color: #000;
+}
+.content .timer-action {
+  font-size: 24px;
+  color: #000;
+  margin-top: 40px;
+}
+.content .timer-numbers {
+  margin-top: 40px;
+  font-size: 90px;
+  color: #000;
+}
+.content .timer-numbers:after {
+  content: '';
+  display: block;
+  width: 20%;
+  height: 1px;
+  background-color: #000;
+  margin: 0 auto;
+  margin-top: 4px;
+}
